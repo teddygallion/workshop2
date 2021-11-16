@@ -9,10 +9,10 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-import os
+
 from pathlib import Path
 from decouple import config
-
+import os
 
 
 
@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-(j-#aqq@vs$3l#0(031z4_h(_*pa&ye#dt&x69_@(&a6(=+fpg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-18-217-25-104.us-east-2.compute.amazonaws.com', '0.0.0.0', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['ec2-3-20-189-199.us-east-2.compute.amazonaws.com', '0.0.0.0', 'localhost', '127.0.0.1']
 
 
 # Application definition
